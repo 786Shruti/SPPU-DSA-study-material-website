@@ -1,0 +1,10 @@
+Explain the various modes of opening the file in C/C++. Enlist out basic file operations in C.,5,Easy
+Explain linked organization with respect to inverted files and Cellular partition.,5,Medium
+Explain sequential file organization and state its advantages and disadvantages.,4,Easy
+Explain Random file organization and state its advantages and disadvantages,5,Medium
+Explain advantages of indexing over sequential file. Enlist types of indices.Explain any two.,5,Easy
+Describe Indexed sequential Access file organization method in detail. Also state the advantages and disadvantages.,5,Hard
+Write Pseudo code for two-way merge sort?,5,Hard
+Explain Types of Indices?,7,Easy
+Explain any three operations carried out on sequential file. Write pseudo code for each these three operations.
+Compare index sequential and direct access files.,3,Easy

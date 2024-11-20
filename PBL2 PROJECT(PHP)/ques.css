@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Make the container relative for positioning the logo */
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely within the container */
+    top: 15px; /* Adjust the top position to move the logo above the border */
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.unit {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}

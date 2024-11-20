@@ -1,0 +1,11 @@
+What is use of Hash table. Enlist the Characteristics of Good Hash Function,5,Easy
+What is Hash function. Explain any 4 types of Hashing function,5,Easy
+What is collision with respect to hash function ? What are different collision resolution techniques. Explain in details with example,7,Hard
+Explain Rehashing with suitable example,6,Hard
+Comparison between Quadratic probing and Double hashing,4,Esay
+Difference between Hashing and Skip list,4,Esay
+Write a short note on Extendible hashing,6,Hard
+Explain the Skip list with its Applications, advantages and Disadvantages,8,Hard
+Represent the following key in memory using Linear probing with and without replacement. Use modulo 10 as your hashing function. 24 13 16 15 19 20 22 14 17 26 84 96,6,Medium
+Insert the following data in the hash table of size 10 using linear probing with chaining without replacement : 131 3 4 21 61 6 71 8 9 ,6,Medium
+For the hash table size of 10 using hash function key F(key) = key % 10 insert the following keys : 65 75 25 29 85 39 36. Use linear probing with chaining 1 25 3 21 13 1 2 7 12 4 8 Use linear probing with replacement.,6,Medium

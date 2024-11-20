@@ -1,0 +1,10 @@
+Define Basic Terminologies of Graph with example.<br><br>,3,Easy
+Explain the following terms of below given graphs: i)In degree and out degree of each vertex. ii)Adjacency list representation.3-1.jpg,5,Easy
+Draw any directed graph with minimum 6 nodes and represent graph using adjacency matrix, adjacency list, adjacency multilist and inverse adjacency list.,6,Easy
+Consider the given graph and find the shortest path by using Dijkshtra’s Algo from a to g. 3-2.jpg,7,Medium
+Define DFS and BFS for a graph. Show BFS and DFS for the following graph with starting vertex as 1.3-3.jpg,7,Medium
+Find the MST for the graph given using Kruskals Algorithm and show all the Step.Example 1: 3-4.jpg Example 2 : 3-5.jpg,8,Hard
+Consider the graph represented by the following adjacency matrix.And find minimum spanning tree of this graph using Prim’s algorithm. 3-6.jpg ,7,Medium
+Find shortest path in following graph from node A, using Dijkstra Algorithm.3-7.jpg ,7,Medium
+Construct MST from the given data using Prims Algorithms.Example 1:3-8.jpg Example 2:3-9.jpg,5,Medium
+Explain topological ordering ? List their applications. Find the topological sorting of a given graph.3-10.jpg,7,Hard

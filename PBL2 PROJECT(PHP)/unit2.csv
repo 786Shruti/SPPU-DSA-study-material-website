@@ -1,0 +1,13 @@
+Define Basic Terminologies of Trees with example.,4,Easy
+Explain the Binary tree with its Types(examples required),4,Easy
+Explain Representation of binary tree using sequential and linked organization.,5,Easy
+With suitable example , explain step for conversion of a general tree into binary tree.,4,Easy
+Explain the Binary Search Tree in details with example.,5,Easy
+Construct Binary Search Tree(BST) for the following :  a) J R D G T E M H P A F Q   b) MAR MAY NOV AUG APR JAN DEC JUL FEB JUN OCT SEPT,5,Easy
+Explain Threaded Binary Tree with its advantages and disadvantages.,6,Hard
+Write a short notes on Huffman Coding.Construct Huffman's Tree and the prefix free code for all characters given: A->3, B->5, C->8, D->2, E->7",6,Medium
+From the given traversals construct the binary tree : Inorder : EICFJBGDKHL postorder : IEJFCGKLHDB Draw the binary tree and write preorder traversal.,5,Medium
+Explain Tree Traversal with it recursive algorithms and example.,6,Hard
+Convert given general tree into binary tree: /path/to/2-1.jpg,4,Easy
+For the binary tree representation as an array, perform in-order threading on a tree./path/to/2-2.jpg,5,Easy
+Solve following tree traversal example.Perform inorder, preorder, postorder traversal of binary tree./path/to/2-3.jpg,6,Easy
