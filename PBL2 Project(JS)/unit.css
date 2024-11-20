@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 580px; /* Add margin to move the .unit container below the logo and title */ 
+    margin: 200px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 20px; /* Adjust the top position as needed */
+    left: 550px; /* Adjust the left position as needed */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.chapters {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chapters li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.chapters li:hover {
+    background-color: #e0e0e0;
+}

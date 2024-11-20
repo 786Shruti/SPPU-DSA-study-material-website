@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper Generator</title>
+    <link rel="stylesheet" href="paper.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" width="350" height="200">
+        <h1>Question Paper Generator</h1>
+        <div class="form-group">
+            <label for="marks">Select Marks:</label>
+            <select id="marks" >
+                <option value="30">30 Marks</option>
+                <option value="70">70 Marks</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="difficulty">Select Difficulty Level:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <button onclick="openPage()">Submit</button>
+    </div>
+
+    <script>
+        function openPage() {
+            var marksSelect = document.getElementById("marks");
+            var difficultySelect = document.getElementById("difficulty");
+
+            var marks = [];
+            var difficulty = [];
+
+            // Collect selected marks options
+            for (var option of marksSelect.options) {
+                if (option.selected) {
+                    marks.push(option.value);
+                }
+            }
+
+            // Collect selected difficulty options
+            for (var option of difficultySelect.options) {
+                if (option.selected) {
+                    difficulty.push(option.value);
+                }
+            }
+
+            // Check if both options are selected
+            if (marks.length > 0 && difficulty.length > 0) {
+                // Construct the URL based on the selected options
+                var url = generateURL(marks, difficulty);
+                if (url) {
+                    // Open the other page
+                    window.open(url, "_blank");
+                } else {
+                    alert("No PDF file found for the selected options. Please check the combination of marks and difficulty.");
+                }
+            } else {
+                alert("Please select at least one option for marks and difficulty.");
+            }
+        }
+
+        function generateURL(marks, difficulty) {
+            // Choose appropriate PDF file based on selected options
+            var pdfName = "";
+            if (marks.includes("30") && difficulty.includes("easy")) {
+                pdfName = "30_easy.pdf";
+            } else if (marks.includes("70") && difficulty.includes("easy")) {
+                pdfName = "70_easy.pdf";
+            } else if (marks.includes("30") && difficulty.includes("hard")) {
+                pdfName = "30_difficult.pdf";
+            } else if (marks.includes("70") && difficulty.includes("hard")) {
+                pdfName = "70_difficult.pdf";
+            } else {
+                // Default case if no valid combination found
+                return null;
+            }
+
+            return pdfName;
+        }
+    </script>
+    <p>NOTE:30 marks paper would be based on first two units and 70 marks paper would be based on last 4 units.</p>
+</body>
+</html>
